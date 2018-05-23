@@ -1,14 +1,10 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
-
-/*
-	Ethereal by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
-
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -1759,6 +1755,7 @@
 			position: relative;
 			border-bottom: 0;
 			overflow: hidden;
+			overflow: hidden;
 		}
 
 			.gallery .image img {
@@ -1896,8 +1893,9 @@
 
 				.gallery .modal .inner img {
 					display: block;
-					max-width: 90vw;
-					max-height: 85vh;
+					max-width: 800vw;
+					max-height: 100vh;
+					overflow-y: scroll;					
 					box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.35);
 				}
 
@@ -1938,7 +1936,7 @@
 	@media screen and (max-width: 980px) {
 
 		.gallery .modal .inner img {
-			max-width: 100vw;
+			max-width: 180vw;
 		}
 
 	}
@@ -2818,7 +2816,7 @@
 					}
 
 			.panel > .inner {
-				padding: 2.8875rem 1.75rem 1.3875rem 1.75rem ;
+				padding: 2.8875rem 1.75rem 1.3875rem 6rem ;
 			}
 
 				.panel > .inner.columns {
