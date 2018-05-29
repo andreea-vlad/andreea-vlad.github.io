@@ -302,7 +302,7 @@
 	}
 
 	p {
-		margin: 0 0 1.5rem 0;
+		margin: 0 0 0 0;
 	}
 
 		body.is-ie p {
@@ -1398,6 +1398,7 @@
 
 		table td {
 			padding: 0.75rem 0.75rem;
+			font-size: 14px;
 		}
 
 		table th {
@@ -3681,4 +3682,31 @@
 	#stars{
 		float: left!important;
 	}
-	
+	* {box-sizing: border-box}
+
+.container1 {
+  width: 90%;
+  background-color: #a8a8a8;
+  font-size: 14px;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+.illust {width: 95%; background-color: #1B5E20;}
+.photosh {width: 95%; background-color: #1B5E20;}
+.flash {width: 75%; background-color: #007500;}
+.axure {width: 75%; background-color: #007500;}
+.invis {width: 75%; background-color: #007500;}
+.html {width: 55%; background-color: #009100;}
+.js {width: 35%; background-color: #00BB00;}
+
+.interview {width: 95%; background-color: #1B5E20;}
+.surveys {width: 95%; background-color: #1B5E20;}
+.usabil {width: 75%; background-color: #007500;}
+.abtest {width: 75%; background-color: #007500;}
+.card {width: 55%; background-color: #009100;}
