@@ -751,7 +751,7 @@
 
 		input[type="checkbox"].color1 + label:before,
 		input[type="radio"].color1 + label:before {
-			color: #726193;
+			color: #9183ad;
 		}
 
 		input[type="checkbox"].color2 + label:before,
@@ -3693,19 +3693,20 @@
   text-align: right;
   padding-right: 20px;
   line-height: 30px;
-  color: white;
+  color: #fff;
+  font-style: bold;
 }
 
-.illust {width: 95%; background-color: #3E766D;}
-.photosh {width: 95%; background-color: #3E766D;}
-.flash {width: 75%; background-color: #068481;}
-.axure {width: 75%; background-color: #068481;}
-.invis {width: 75%; background-color: #068481;}
-.html {width: 55%; background-color: #20B2AA	;}
-.js {width: 35%; background-color: #00BB00;}
+.illust {width: 95%; background-color: #83BA9A;}
+.photosh {width: 95%; background-color: #83BA9A;}
+.flash {width: 75%; background-color: #C48BA5;}
+.axure {width: 75%; background-color: #C48BA5;}
+.invis {width: 75%; background-color: #C48BA5;}
+.html {width: 55%; background-color: #D18150;}
+.js {width: 35%; background-color: #fff;}
 
-.interview {width: 95%; background-color: #3E766D;}
-.surveys {width: 95%; background-color: #3E766D;}
-.usabil {width: 75%; background-color: #068481;}
-.abtest {width: 75%; background-color: #068481;}
-.card {width: 55%; background-color: #20B2AA	;}
+.interview {width: 95%; background-color: #83BA9A;}
+.surveys {width: 95%; background-color: #83BA9A;}
+.usabil {width: 75%; background-color: #C48BA5;}
+.abtest {width: 75%; background-color: #C48BA5;}
+.card {width: 55%; background-color: #D18150;}
