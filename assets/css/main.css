@@ -3686,7 +3686,6 @@
 
 .container1 {
   width: 90%;
-  background-color: #a8a8a8;
   font-size: 14px;
 }
 
@@ -3697,16 +3696,16 @@
   color: white;
 }
 
-.illust {width: 95%; background-color: #1B5E20;}
-.photosh {width: 95%; background-color: #1B5E20;}
-.flash {width: 75%; background-color: #007500;}
-.axure {width: 75%; background-color: #007500;}
-.invis {width: 75%; background-color: #007500;}
-.html {width: 55%; background-color: #009100;}
+.illust {width: 95%; background-color: #3E766D;}
+.photosh {width: 95%; background-color: #3E766D;}
+.flash {width: 75%; background-color: #068481;}
+.axure {width: 75%; background-color: #068481;}
+.invis {width: 75%; background-color: #068481;}
+.html {width: 55%; background-color: #20B2AA	;}
 .js {width: 35%; background-color: #00BB00;}
 
-.interview {width: 95%; background-color: #1B5E20;}
-.surveys {width: 95%; background-color: #1B5E20;}
-.usabil {width: 75%; background-color: #007500;}
-.abtest {width: 75%; background-color: #007500;}
-.card {width: 55%; background-color: #009100;}
+.interview {width: 95%; background-color: #3E766D;}
+.surveys {width: 95%; background-color: #3E766D;}
+.usabil {width: 75%; background-color: #068481;}
+.abtest {width: 75%; background-color: #068481;}
+.card {width: 55%; background-color: #20B2AA	;}
