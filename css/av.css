@@ -410,7 +410,7 @@ input[type=text], input[type=email], textarea{
 #title-container-wrapper{
   background-color: #F7F7F9;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .banner-img {
@@ -625,7 +625,7 @@ span.work-date {
   font-weight: normal;
 }
 span.work-title {
-  font-weight: 600;
+  font-weight: normal;
 }
 .accordion-item {
   border-bottom: 1px solid #47A8BD;
