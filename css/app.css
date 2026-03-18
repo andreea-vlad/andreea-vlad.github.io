@@ -80,6 +80,27 @@ p {
   }
 }
 
+.title-font2{
+  font-family: 'Fjalla One', sans-serif;
+  color: #fff;
+  font-size: 2.625em;
+}
+  
+@media only screen and (max-width:991px) {
+  .title-font2 {
+    font-size: 2.25em;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .title-font2 {
+    font-size: 1.875em;
+  }
+  span.sub-h1 {
+    font-size: 0.9375em;
+  }
+}
+
 .secondary-heading {
   color:#fff;
   font-size:1.25em;
