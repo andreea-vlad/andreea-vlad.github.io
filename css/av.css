@@ -666,6 +666,29 @@ span.work-title {
 .accordion-body ul {
   padding-left: 0px;
 }
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+  color: #005ea5;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.back-link:focus {
+  outline: 2px solid #ffbf47;
+  outline-offset: 2px;
+}
+
+.icon {
+  display: inline-flex;
+}
 /* Temp Colours 
 
 Navy: #2B2D42;
